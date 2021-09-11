@@ -1,0 +1,23 @@
+.square {
+    cursor: pointer;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background: green;
+    transition: .5s ease-in-out;
+}
+
+.square.circle {
+    border-radius: 50%;
+    background: yellowgreen;
+}
+
+.square.triangle {
+    width: 0;
+    height: 0;
+    background: none;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 500px solid red;
+    border-top: none;
+}
